@@ -16,7 +16,7 @@ handOffPlotM = []
 carnum = 0
 
 if __name__ == '__main__':
-    for i in range(1000): #simulation starting here
+    for i in range(86400): #simulation starting here
         # print(i)
         carToRemove.clear()
         carEnter(cars)
