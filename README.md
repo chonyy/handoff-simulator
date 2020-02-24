@@ -1,5 +1,5 @@
 <p align=center>
-    <img src="img/Result.PNG">
+    <img src="img/Result.png">
 </p>
 
 <p align=center>
@@ -29,11 +29,6 @@ A block size 120 * 80 (m^2). Cars are assummed to be moving on an extremely thin
 -   **Probability of cars turning** based on predefined value listed below
 -   **Received Power Calculation** explained below
 
-### What is a handoff?
-<p align=center>
-    <img src="img/handoff.PNG">
-</p>
-
 ### Car Entrance Distribution
 
 The probability of the entrance follows [Poisson distribution](https://en.wikipedia.org/wiki/Poisson_distribution)<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c22cb4461e100a6db5f815de1f44b1747f160048"> and <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/2debd3f9adf97c8af4919aa69ed4a7121b47a737">
@@ -53,6 +48,12 @@ The received power is calculated by the formula below. Read [ScienceDirect](http
 -   First-meter path loss = 10 dBm
 -   **P0 = -50 dBm**
 -   **Pd = -50 - 10 - 20log(d(m) / 1m)**
+
+
+## What is a handoff?
+<p align=center>
+    <img src="img/handoff.PNG">
+</p>
 
 ## Parameter values
 
