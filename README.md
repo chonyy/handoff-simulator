@@ -63,7 +63,14 @@ The received power is calculated by the formula below. Read [ScienceDirect](http
 Each time a mobile or portable cellular subscriber passes from one cellinto another, the network automatically switches coverage responsibility from one basestation to another.  Each base-station transition, as well as the switching processor sequence itself, is called handoff.
 
 ## Usage
-run script
+Idealy
+
+```python
+pipenv install
+pipenv run python src/handoff.py
+```
+
+Or if you already got the dependencies in the pipfile
 
 ```python
 python src/handoff.py

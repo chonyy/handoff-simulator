@@ -1,2 +1,4 @@
 language: python
-script: python src/handoff.py
+script: 
+- pipenv install
+- pipenv run python src/handoff.py
