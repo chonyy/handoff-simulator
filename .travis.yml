@@ -1,5 +1,8 @@
 language: python
+
+install:
+  - 'pip install pipenv'
+  - 'pipenv sync'
+
 script: 
-- pip install pipenv
-- pipenv install
-- pipenv run python src/handoff.py
+- python src/handoff.py
