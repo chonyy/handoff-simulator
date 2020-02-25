@@ -1,2 +1,2 @@
 language: python
-script: python Wireless.py
+script: python src/handoff.py

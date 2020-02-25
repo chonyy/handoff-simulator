@@ -58,9 +58,16 @@ The received power is calculated by the formula below. Read [ScienceDirect](http
     <img src="img/handoff.PNG">
 </p>
 
-[Handoff](https://searchmobilecomputing.techtarget.com/definition/handoff) is the transition for any given user of signal transmission from one base station to a geographically adjacent base station as the user moves around.
+[Handoff](https://searchmobilecomputing.techtarget.com/definition/handoff) is the **transition** for any given user of signal transmission from one base station to a geographically adjacent base station as the user **moves around**.
 
 Each time a mobile or portable cellular subscriber passes from one cellinto another, the network automatically switches coverage responsibility from one basestation to another.  Each base-station transition, as well as the switching processor sequence itself, is called handoff.
+
+## Usage
+run script
+
+```python
+python src/handoff.py
+```
 
 ## Policies parameter value 
 
