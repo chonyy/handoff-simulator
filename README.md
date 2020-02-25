@@ -14,7 +14,7 @@
 
 > 📶 Wiresless network handoff simulator built with python!
 
-If you are not familiar with the process of handoff, strongly recommend checking out the [handoff-visualizer](https://github.com/chonyy/handoff-visualizer). The visualizer visualize a tuned versoin of this simulation, which makes the process and concept easy to understand. The visualizer is built to make the concept understandable. We **value the data in this simulation projecy**.
+If you are not familiar with the process of handoff, strongly recommend checking out the [handoff-visualizer](https://github.com/chonyy/handoff-visualizer). The visualizer visualize a tuned versoin of this simulation, which makes the process and concept easy to understand. The visualizer is built to make the concept understandable. We **value the data in this simulation project**.
 
 This project is a side project of [handoff-visualizer](https://github.com/chonyy/handoff-visualizer).
 
@@ -23,6 +23,7 @@ This project is a side project of [handoff-visualizer](https://github.com/chonyy
 <p align=center>
     <img src="img/simulation.PNG">
 </p>
+
 A block size is 120 * 80 (m^2). Cars are assummed to be moving on an extremely thin line between blocks, the line doesn't take up any space. The velocity of the car is 10m/s. In our simultation, we iterate once in a second, the cars moves 10 meter, and all the data are calculated and updated on each iteration. We run for **86400 iterations** to simulate the handoffs in a day.
 
 -   **Velocity** = 36km/hr = 10m/s
@@ -56,6 +57,7 @@ The received power is calculated by the formula below. Read [ScienceDirect](http
 <p align=center>
     <img src="img/handoff.PNG">
 </p>
+
 [Handoff](https://searchmobilecomputing.techtarget.com/definition/handoff) is the transition for any given user of signal transmission from one base station to a geographically adjacent base station as the user moves around.
 
 Each time a mobile or portable cellular subscriber passes from one cellinto another, the network automatically switches coverage responsibility from one basestation to another.  Each base-station transition, as well as the switching processor sequence itself, is called handoff.
