@@ -10,10 +10,6 @@ pylint = "*"
 request = "*"
 numpy = "*"
 matplotlib = "*"
-random = "*"
-math = "*"
-tkinter = "*"
-python3-tk = "*"
 
 [requires]
 python_version = "3.6"

@@ -5,4 +5,4 @@ install:
   - 'pipenv sync'
 
 script: 
-- python src/handoff.py
+- pipenv run python src/handoff.py
