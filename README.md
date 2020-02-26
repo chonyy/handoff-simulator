@@ -24,7 +24,7 @@ This project is a side project of [handoff-visualizer](https://github.com/chonyy
     <img src="img/simulation.PNG">
 </p>
 
-A block size is 120 * 80 (m^2). Cars are assummed to be moving on an extremely thin line between blocks, the line doesn't take up any space. The velocity of the car is 10m/s. In our simultation, we iterate once in a second, the cars moves 10 meter, and all the data are calculated and updated on each iteration. We run for **86400 iterations** to simulate the handoffs in a day.
+A block size is 120 \* 80 (m^2). Cars are assummed to be moving on an extremely thin line between blocks, the line doesn't take up any space. The velocity of the car is 10m/s. In our simultation, we iterate once in a second, the cars moves 10 meter, and all the data are calculated and updated on each iteration. We run for **86400 iterations** to simulate the handoffs in a day.
 
 -   **Velocity** = 36km/hr = 10m/s
 -   **Probability of cars entrance** follows [Poisson distribution](https://en.wikipedia.org/wiki/Poisson_distribution)
@@ -52,21 +52,22 @@ The received power is calculated by the formula below. Read [ScienceDirect](http
 -   **P0 = -50 dBm**
 -   **Pd = -50 - 10 - 20log(d(m) / 1m)**
 
-
 ## What is handoff?
+
 <p align=center>
-    <img src="img/handoff.PNG">
+    <img src="img/handoff.PNG" width="636" height="391">
 </p>
 
 [Handoff](https://searchmobilecomputing.techtarget.com/definition/handoff) is the **transition** for any given user of signal transmission from one base station to a geographically adjacent base station as the user **moves around**.
 
-Each time a mobile or portable cellular subscriber passes from one cellinto another, the network automatically switches coverage responsibility from one basestation to another.  Each base-station transition, as well as the switching processor sequence itself, is called handoff.
+Each time a mobile or portable cellular subscriber passes from one cellinto another, the network automatically switches coverage responsibility from one basestation to another. Each base-station transition, as well as the switching processor sequence itself, is called handoff.
 
 ## Usage
+
 Idealy
 
 ```python
-pipenv install
+pipenv sync
 pipenv run python src/handoff.py
 ```
 
@@ -76,7 +77,7 @@ Or if you already got the dependencies in the pipfile
 python src/handoff.py
 ```
 
-## Policies parameter value 
+## Policies parameter value
 
 The different parameters for each policy are listed below.
 
